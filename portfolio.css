@@ -1,0 +1,96 @@
+.ia {
+    padding: 5px;
+    background-color: purple;
+    color: orangered;
+    letter-spacing: 3px
+}
+
+.na:hover {
+    color: aliceblue !important;
+    background-color: darkslategrey;
+    padding: 3px;
+}
+
+.contain {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pic {
+    width: 100%;
+    opacity: .8;
+    filter: blur(2px);
+}
+
+@media only screen and (min-width: 600px) {
+    .pic {
+        height: 500px;
+        width: 100%;
+        opacity: 1;
+        filter: blur(4px)
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sk {
+        display: none;
+    }
+}
+
+.bg-purple {
+    background-color: mediumpurple !important;
+}
+
+.bg-orange {
+    color: orangered !important;
+}
+
+.pro {
+    box-shadow: 5px 4px 5px grey;
+}
+
+.pro:hover {
+    box-shadow: 5px 4px 8px navy;
+    margin: 5px;
+}
+
+.cont:hover {
+    color: aqua;
+}
+
+.but {
+    color: white;
+    padding: 4px;
+    background-color: coral;
+}
+
+.but:hover {
+    padding: 4px;
+    color: crimson;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.arrow {
+    color: white;
+    padding: 4px;
+    background-color: crimson;
+    border-radius: 50%;
+}
+
+.arrow:hover {
+    color: blueviolet;
+    background-color: aqua
+}
