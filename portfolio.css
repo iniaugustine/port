@@ -43,6 +43,9 @@
     .sk {
         display: none;
     }
+    .pic{
+        height: 450px;
+     }
 }
 
 .bg-purple {
