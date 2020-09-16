@@ -72,14 +72,14 @@
 .but {
     color: white;
     padding: 4px;
-    background-color: coral;
+    background-color: #702963;
 }
 
 .but:hover {
     padding: 4px;
     color: crimson;
     border-radius: 50%;
-    background-color: aquamarine;
+    background-color: white;
 }
 
 html {
