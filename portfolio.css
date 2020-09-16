@@ -89,11 +89,11 @@ html {
 .arrow {
     color: white;
     padding: 4px;
-    background-color: purple;
+    background-color: #702963;
     border-radius: 50%;
 }
 
 .arrow:hover {
-    color: blueviolet;
-    background-color: aqua
+    color: crimson;
+    background-color: white;
 }
